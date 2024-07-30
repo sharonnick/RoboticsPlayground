@@ -1,0 +1,31 @@
+RoboticsPlayground/
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   ├── feature_request.md
+│   └── workflows/
+│       └── ci.yml
+├── src/
+│   ├── __init__.py
+│   ├── robot_controller.py
+│   ├── simulation.py
+│   ├── sensors.py
+│   └── utils.py
+├── config/
+│   └── config.yaml
+├── data/
+│   ├── robot_models/
+│   └── simulation_logs/
+├── scripts/
+│   ├── run_simulation.py
+│   └── control_robot.py
+├── tests/
+│   ├── test_robot_controller.py
+│   ├── test_simulation.py
+│   ├── test_sensors.py
+│   └── test_utils.py
+├── .gitignore
+├── LICENSE
+├── README.md
+├── requirements.txt
+└── setup.py
